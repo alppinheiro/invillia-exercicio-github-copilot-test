@@ -142,3 +142,26 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Atualizei as cores para combinar melhor com o tema do site */
+.participants-list {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #3949ab; /* Azul escuro para combinar com o cabeçalho */
+  border-radius: 5px;
+  background-color: #e8eaf6; /* Azul claro para um visual mais alegre */
+  font-size: 14px;
+  color: #1a237e; /* Azul escuro para o texto */
+}
+
+/* Ajustei o padding e o margin para garantir que os marcadores fiquem dentro da borda */
+.participants-list ul {
+  list-style-type: disc;
+  padding-left: 15px; /* Reduzi o padding para alinhar os marcadores */
+  margin: 0;
+}
+
+.participants-list li {
+  margin-bottom: 5px;
+  padding-left: 5px; /* Adicionei padding para alinhar o texto com os marcadores */
+}
